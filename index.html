@@ -4,13 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Acme App</title>
   </head>
-  <body>
-    <!-- Start Coding Here -->
+  <body class="bg-[#f6f6fb] text-[#1a1a1a] font-sans">
 
-  <!-- Features Section -->
+    <!-- NAV-BAR SECTION -->
+    <header class="flex justify-between items-center px-12 py-6 max-w-[1100px] mx-auto mt-4 bg-white rounded-full shadow-md">
+      <div class="font-bold text-lg">
+        Acme<span class="text-[#6c63ff]">•</span>
+      </div>
+      <nav>
+        <ul class="flex list-none gap-8 text-[16px] font-medium">
+          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Home</a></li>
+          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Features</a></li>
+          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Pricing</a></li>
+          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main class="text-center px-5 py-10">
+      <div class="inline-block bg-[rgba(86,58,255,0.1)] text-[#5e44ff] text-base px-4 py-2 rounded-full mb-6">
+        🌈 Acme Productivity App
+      </div>
+      <h1 class="text-6xl font-extrabold text-[#1a1a2c]">
+        Boost Your <span class="text-[#6c63ff]">Product</span>ivity
+      </h1>
+      <p class="text-base font-bold text-[#1a1a2c] mt-3">
+        Streamline your workflow with our all-in-one productivity app.
+      </p>
+      <button class="bg-[#1a1a1c] text-white text-base w-[187px] h-[56px] px-9 py-4 rounded-2xl mt-8 hover:bg-[#5F5F76] focus:bg-[#35354D] focus:border-[2px] focus:border-[#5f5f76]">
+        Start Free Trial
+      </button>
+    </main>
+    
+     <!-- Features Section -->
   <section class="py-20 bg-[#F6F6FB]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-3 gap-8">
