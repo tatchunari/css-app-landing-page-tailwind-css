@@ -7,84 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Acme App</title>
   </head>
-  <body class="bg-[#f6f6fb] text-[#1a1a1a] font-sans">
-
-    <!-- NAV-BAR SECTION -->
-    <header class="flex justify-between items-center px-12 py-6 max-w-[1100px] mx-auto mt-4 bg-white rounded-full shadow-md">
-      <div class="font-bold text-lg">
-        Acme<span class="text-[#6c63ff]">•</span>
-      </div>
-      <nav>
-        <ul class="flex list-none gap-8 text-[16px] font-medium">
-          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Home</a></li>
-          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Features</a></li>
-          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Pricing</a></li>
-          <li><a href="#" class="text-[#1a1a2c] hover:text-[#5E44FF] hover:underline">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- HERO SECTION -->
-    <main class="text-center px-5 py-10">
-      <div class="inline-block bg-[rgba(86,58,255,0.1)] text-[#5e44ff] text-base px-4 py-2 rounded-full mb-6">
-        🌈 Acme Productivity App
-      </div>
-      <h1 class="text-6xl font-extrabold text-[#1a1a2c]">
-        Boost Your <span class="text-[#6c63ff]">Product</span>ivity
-      </h1>
-      <p class="text-base font-bold text-[#1a1a2c] mt-3">
-        Streamline your workflow with our all-in-one productivity app.
-      </p>
-      <button class="bg-[#1a1a1c] text-white text-base w-[187px] h-[56px] px-9 py-4 rounded-2xl mt-8 hover:bg-[#5F5F76] focus:bg-[#35354D] focus:border-[2px] focus:border-[#5f5f76]">
-        Start Free Trial
-      </button>
-    </main>
-    
-     <!-- Features Section -->
-  <section class="py-20 bg-[#F6F6FB]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-3 gap-8">
-        
-        <!-- Feature 1 -->
-        <div class="bg-[#D7E5F6] rounded-2xl p-8 text-left">
-          <div class="w-12 h-12 bg-[#FFFFFF99] rounded-xl flex items-center justify-center mb-6">
-            <img class="w-6 h-6" src="./img/rocket.png" alt="Rocket icon">
-          </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-4">Streamlined Workflows</h3>
-          <p class="text-gray-600">
-            Automate repetitive tasks and focus on high-impact work with our powerful productivity features.
-          </p>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="bg-[#D8E0FC] rounded-2xl p-8 text-left">
-          <div class="w-12 h-12 bg-[#FFFFFF99] rounded-xl flex items-center justify-center mb-6">
-            <img class="w-6 h-6" src="./img/bolt.png" alt="Lightning icon">
-          </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-4">Blazing Fast Performance</h3>
-          <p class="text-gray-600">
-            Experience lightning-fast performance and instant responsiveness with our cutting-edge technology.
-          </p>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="bg-[#E8DCF6] rounded-2xl p-8 text-left">
-          <div class="w-12 h-12 bg-[#FFFFFF99] rounded-xl flex items-center justify-center mb-6">
-            <img class="w-6 h-6" src="./img/smile.png" alt="Smile icon">
-          </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-4">Intuitive Interface</h3>
-          <p class="text-gray-600">
-            Our user-friendly interface makes it easy for anyone to streamline their workflow.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  
-    <div class="flex-1 flex items-center justify-center pb-24">
-      <div class="bg-white rounded-3xl shadow-sm w-full max-w-xl p-10 py-12">
-        <h1 class="text-5xl font-bold text-center mb-8" style="color:#1A1A2C">Get in Touch</h1>
+  <body class="min-h-screen flex flex-col" style="background-color:#F6F6FB;">
+    <div class="flex-1 flex items-center justify-center pb-24 px-2">
+      <div class="bg-white rounded-3xl shadow-sm w-full max-w-md mx-auto p-6 sm:p-10 py-12">
+        <h1 class="text-3xl sm:text-5xl font-bold text-center mb-8" style="color:#1A1A2C">Get in Touch</h1>
         <form class="space-y-6">
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-1" for="name">Name</label>
@@ -130,9 +56,9 @@
         </form>
       </div>
     </div>
-    <footer class="fixed bottom-0 left-0 w-full flex items-center justify-between px-8 md:px-20 py-6 text-xs text-gray-400 bg-gray-50 z-50">
+    <footer class="w-full flex flex-col sm:flex-row items-center justify-between px-4 sm:px-8 md:px-20 py-6 text-xs text-gray-400 text-center sm:text-left">
       <div>Acme productivity app ©2024</div>
-      <div class="flex space-x-8 font-medium text-gray-500">
+      <div class="flex space-x-4 sm:space-x-8 font-medium text-gray-500 mt-2 sm:mt-0">
         <a href="#" class="hover:underline">FAQ</a>
         <a href="#" class="hover:underline">Terms</a>
         <a href="#" class="hover:underline">AI Policy</a>
